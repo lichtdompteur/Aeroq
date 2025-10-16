@@ -880,7 +880,7 @@
 					(hide yes)
 				)
 			)
-			(property " MPN" "USBLC6-2SC6"
+			(property "MPN" "USBLC6-2SC6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2804,6 +2804,15 @@
 			)
 		)
 		(property "Digi-Key_PN" "497-5235-1-ND"
+			(at 262.89 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
 			(at 262.89 153.67 0)
 			(effects
 				(font
