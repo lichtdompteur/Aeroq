@@ -2983,10 +2983,6 @@
 		(color 0 0 0 0)
 		(uuid "e20bdb83-46cf-48af-bf4f-1cecb088a027")
 	)
-	(no_connect
-		(at 226.06 157.48)
-		(uuid "e17f8f7f-2c92-452e-9228-55d109599a08")
-	)
 	(wire
 		(pts
 			(xy 254 127) (xy 254 139.7)

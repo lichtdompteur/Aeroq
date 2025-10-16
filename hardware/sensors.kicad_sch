@@ -731,7 +731,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Sensor:Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm"
+			(property "Footprint" "2s_misc:Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2459,7 +2459,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Sensor:Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm"
+		(property "Footprint" "2s_misc:Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm"
 			(at 149.86 113.03 0)
 			(effects
 				(font
