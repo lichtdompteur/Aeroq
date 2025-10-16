@@ -21,7 +21,8 @@ jobs:
 
     - name: Generate Fabrication files
       run: |
-        kibot -c hardware/kibot.yaml --out-dir out
+        cd hardware
+        kibot -c kibot.yaml --out-dir out
     - name: List Generated files
       run: |
         ls -al
@@ -31,14 +32,14 @@ jobs:
       with:
         # get name of the repository and use it for the artifact name
         name: ${{ github.event.repository.name }}-${{ env.GIT_DESC }}-full
-        path: out/*
+        path: hardware/out/*
     - name: Upload Schematics alone
       uses: actions/upload-artifact@v4
       with:
         name: ${{ github.event.repository.name }}-${{ env.GIT_DESC }}-schematics
-        path: out/Schematic/*schematic.pdf
+        path: hardware/out/Schematic/*schematic.pdf
     - name: Upload DigiKey BOM
       uses: actions/upload-artifact@v4
       with:
         name: ${{ github.event.repository.name }}-${{ env.GIT_DESC }}-marinecircuits-bom-digikey
-        path: out/BOM/MarineCircuits/*.csv
+        path: hardware/out/BOM/MarineCircuits/*.csv
